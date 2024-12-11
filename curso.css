@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.card{
+    background-color: #f6f8ee ;
+}
+
+.card_header{
+    width: 100vw;
+    padding: 25px; /*Espaço interno*/
+    color: azure; /*Cor Da fonte*/
+    background-color: #1c5052;/*Cor De Fundo*/
+    text-align: center;
+    box-shadow: 0 0 20px 0 #348e91;/*Sombra*/
+
+}
+
+.card_main{
+    color: whitesmoke;
+    font-size: 20px;
+    background-color: #213635;
+    width: 22vw;
+    padding: 70px;
+    border-radius: 20px;
+    position:fixed;
+    left: 35vw;
+    bottom: 15vw;
+}
+
+.card_footer{
+    width: 100vw;
+    padding: 30px; /*Espaço interno*/
+    color: azure; /*Cor Da fonte*/
+    background-color: #1c5052;/*Cor De Fundo*/
+    text-align: center;
+    box-shadow: 0 0 20px 0 #348e91 ;/*Sombra*/
+    position: fixed;/*Fixando a posição do elemento*/
+    bottom: 0;/*Parte de Baixo Da Pagina*/
+}
+
+.texto{
+    color: whitesmoke;
+    font-size: 38px;
+}  
+
+
+.card_main1{
+    color: whitesmoke;
+    font-size: 20px;
+    background-color: #213635;
+    width: 22vw;
+    padding: 60px;
+    border-radius: 20px;
+    position:fixed;
+    left: 4vw;
+    bottom: 15vw;
+    flex-direction: column;
+}
+
+.texto1{
+    color: whitesmoke;
+    position: relative;
+}
+
+.card_main2{
+    color: whitesmoke;
+    font-size: 20px;
+    background-color: #213635;
+    width: 22vw;
+    padding: 60px;
+    border-radius: 20px;
+    position:fixed;
+    left: 68vw;
+    bottom: 15vw;
+}
+
+.texto2{
+    color: whitesmoke;
+    position: relative;
+
+}
+
+@media screen and (max-width: 1230px) {
+    
+    .card_main{
+        padding: 4%;
+        height: 17%;
+        width: 30%;
+        left: 30%;
+        bottom: 63%;
+        font-size: 16px;
+    }
+    .texto{
+        font-size: 25px;
+    }
+
+    .card_main1 {
+        
+        padding: 4%;
+        height: 12%;
+        width: 30%;
+        left: 30%;
+        bottom: 37%;
+        font-size: 13px;
+    }
+    
+   
+
+    .card_main2{
+        padding: 4%;
+        height: 12%;
+        width: 30%;
+        left: 30%;
+        bottom: 12%;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    
+    .card_main{
+        padding: 4%;
+        height: 17%;
+        width: 30%;
+        left: 30%;
+        bottom: 63%;
+        font-size: 13px;
+    }
+    .texto{
+        font-size: 20px;
+    }
+
+    .card_main1 {
+        
+        padding: 4%;
+        height: 12%;
+        width: 30%;
+        left: 30%;
+        bottom: 37%;
+        font-size: 10px;
+    }
+    
+   
+
+    .card_main2{
+        padding: 4%;
+        height: 12%;
+        width: 30%;
+        left: 30%;
+        bottom: 12%;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+
+    .card_main{
+        padding: 4%;
+        height: 15%;
+        width: 30%;
+        left: 30%;
+        bottom: 63%;
+        font-size: 9px;
+    }
+    .texto{
+        font-size: 16px;
+    }
+
+    .card_main1 {
+        
+        padding: 4%;
+        height: 15%;
+        width: 30%;
+        left: 30%;
+        bottom: 37%;
+        font-size: 9px;
+    }
+    
+   
+
+    .card_main2{
+        padding: 4%;
+        height: 15%;
+        width: 30%;
+        left: 30%;
+        bottom: 12%;
+        font-size: 9px;
+    }
+
+    
+    
+}
+
+@media screen and (max-width: 450px){
+
+    .card_main{
+        padding: 4%;
+        height: 15%;
+        width: 30%;
+        left: 30%;
+        bottom: 63%;
+        font-size: 7px;
+    }
+    .texto{
+        font-size: 16px;
+    }
+
+    .card_main1 {
+        
+        padding: 4%;
+        height: 15%;
+        width: 30%;
+        left: 30%;
+        bottom: 37%;
+        font-size: 7px;
+    }
+    
+   
+
+    .card_main2{
+        padding: 4%;
+        height: 15%;
+        width: 30%;
+        left: 30%;
+        bottom: 12%;
+        font-size: 7px;
+    }
+
+}
